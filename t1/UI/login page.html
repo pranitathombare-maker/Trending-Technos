@@ -180,19 +180,7 @@
             document.getElementById("message").style.color = "green";
         }
         onclick = "login(event)"
-        function login(event) {
-    event.preventDefault();
-
-    let email = document.getElementById("email").value;
-    let password = document.getElementById("password").value;
-
-    // Store login information
-    localStorage.setItem("email", email);
-    localStorage.setItem("password", password);
-
-    // Redirect to home page
-    window.location.href = "home.html";
-}
+        
     </script>
 
 </body>
